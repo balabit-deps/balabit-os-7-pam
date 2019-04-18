@@ -32,3 +32,4 @@ cve-2015-3238.patch
 pam-limits-nofile-fd-setsize-cap
 pam_namespace_fix_bashism.patch
 make_documentation_reproducible.patch
+fix-pam_tty_audit.patch

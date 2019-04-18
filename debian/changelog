@@ -1,3 +1,10 @@
+pam (1.1.8-3.6ubuntu2.18.04.1) bionic; urgency=medium
+
+  * debian/patches-applied/fix-pam_tty_audit.patch: (LP: #1666203)
+    Fix pam_tty_audit log_passwd support and regression.
+
+ -- Eric Desrochers <eric.desrochers@canonical.com>  Wed, 27 Feb 2019 14:26:50 +0000
+
 pam (1.1.8-3.6ubuntu2) bionic; urgency=medium
 
   * pam-auth-update: Add support for --enable option which is useful for
