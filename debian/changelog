@@ -1,3 +1,10 @@
+pam (1.1.8-3.6ubuntu2.18.04.2) bionic; urgency=medium
+
+  * debian/libpam-modules.postinst: Add /snap/bin to $PATH in
+    /etc/environment. (LP: #1659719)
+
+ -- Michael Hudson-Doyle <michael.hudson@ubuntu.com>  Wed, 22 Jul 2020 11:40:59 +1200
+
 pam (1.1.8-3.6ubuntu2.18.04.1) bionic; urgency=medium
 
   * debian/patches-applied/fix-pam_tty_audit.patch: (LP: #1666203)
