@@ -33,3 +33,5 @@ pam-limits-nofile-fd-setsize-cap
 pam_namespace_fix_bashism.patch
 make_documentation_reproducible.patch
 fix-pam_tty_audit.patch
+add_pam_faillock.patch
+pam_faillock_create_directory
